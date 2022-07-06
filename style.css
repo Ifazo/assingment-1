@@ -1,0 +1,122 @@
+body {
+  font-family: "Inter", sans-serif;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  font-size: 50px;
+}
+button {
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  background-color: #ff5959;
+}
+.cover {
+  height: 500px;
+  background-image: url(/images/donation1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cover-text{
+  color: #fff;
+  padding-top: 200px;
+  text-align: center;
+  margin: auto;
+}
+.zero {
+  text-align: center;
+}
+.one {
+  display: flex;
+  justify-content: center;
+}
+.taka {
+  border: 2px solid #fff;
+  background: #fafafa;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.taka-orange {
+  color: #ff5959;
+  background-color: #ffeeee;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+}
+.gray {
+  color: #b3b3b3;
+}
+hr {
+  width: 70%;
+  margin-bottom: 30px;
+}
+.plan {
+  text-align: center;
+  margin: 100px;
+}
+#food {
+  width: 400px;
+  text-align: left;
+  background-color: #cce0f5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+#shelter {
+  width: 400px;
+  text-align: left;
+  background-color: #ffcccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+#education {
+  width: 400px;
+  text-align: left;
+  background-color: #fff4d6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.fse {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+.extra {
+  display: flex;
+  margin: 100px;
+  align-items: center;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 100%;
+  border-radius: 10px;
+}
+.updates {
+  text-align: center;
+  margin: 100px;
+}
+.email {
+  margin: auto;
+  width: 50%;
+  height: 10px;
+  background-color: #fff4d6;
+  text-align: center;
+  padding: 50px;
+}
+footer {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5px;
+}
