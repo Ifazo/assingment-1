@@ -90,7 +90,7 @@ hr {
 }
 .extra {
   display: flex;
-  margin: 100px;
+  margin: 80px;
   align-items: center;
 }
 .half-width {
@@ -105,16 +105,42 @@ hr {
   margin: 100px;
 }
 .email {
-  margin: auto;
-  width: 50%;
-  height: 10px;
+  width: 800px;
+  height: 200px;
   background-color: #fff4d6;
   text-align: center;
-  padding: 50px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#mail {
+  width: 300px;
+  height: 50px;
+  color: #aa9f9f;
+  background-color: #d9d9d9;
+  border-radius: 8px 0px 0px 8px;
+  text-align: left;
+  padding-left: 20px;
+}
+#sub {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #ff5959;
+  border-radius: 0px 8px 8px 0px;
+  text-align: center;
 }
 footer {
-  color: #fff;
   background-color: #000;
   text-align: center;
   padding: 5px;
+}
+#be{
+  color: #fc8c8c;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+#do{
+  color: #b3b3b3;
 }
